@@ -6,7 +6,7 @@ const server = http.createServer(requestHandler)
 
 function requestHandler ( req , res) {
    res.writeHead(200, {"Content-Type": "text/plain; charset=utf-8"});
-   res.write(`El servidor de platzi está corriendo con pid ${process.pid} y en el puerto ${port}` , "utf-8");
+   res.write(`El servidor de Bootcamp DevOps está corriendo con pid ${process.pid} y en el puerto ${port}` , "utf-8");
    res.end()
 }
 
